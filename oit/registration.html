@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="registration">
+        <h2>Реєстрація</h2>
+        <form action="/submit_registration" method="post">
+            <label for="name">Ім'я:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Електронна пошта:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="course">Оберіть курс:</label><br>
+            <select id="course" name="course">
+                <option value="basic_programming">Основи програмування</option>
+                <option value="web_development">Веб-розробка</option>
+                <option value="mobile_development">Розробка мобільних додатків</option>
+                <option value="data_analysis">Аналіз даних</option>
+            </select><br><br>
+
+            <input type="submit" value="Зареєструватися">
+        </form>
+    </section>
+</body>
+</html>
